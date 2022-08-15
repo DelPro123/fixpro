@@ -1,0 +1,180 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins,sans-serif;
+   
+}
+.container-fluid{
+    padding: 0 60px;
+}
+
+/*navbar*/
+header{
+    display: absolute;
+}
+.nav-brand{
+    float:left;
+    font-size: 30px;
+    margin: 5px 10px;
+
+}
+#logo{
+  height: auto;
+  width: 20%;
+}
+ul{
+    font-size: 15px;
+    font-weight:bold;
+    margin: 10px 5px;
+    float:right
+}
+li{
+    display: inline;
+    text-decoration: none;
+    padding:12px 5px;
+}
+li:hover{
+    color:#2489C1;
+}
+hr{
+    margin-top: -10px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+#SignLog{
+    cursor:pointer;
+    color:#2489C1;
+    border:1px solid #2489C1;
+    border-radius: 5px;
+    font-size: 17px;
+}
+#SignLog:hover{
+    color: white;
+    background-color: #2489C1;
+    
+}
+
+/*home content*/
+.content{
+    align-items: center;
+    padding: 20px 10px;
+}
+
+#image{
+    height: auto;
+    width:85%;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    align-content: center;
+   
+}
+
+h1{
+    position:relative;
+    text-align: center justify;
+    font-size: 60px;
+}
+/*book now button*/
+button{
+    position:absolute;
+    color:white;
+    background-color: #2489C1;
+    border: 2px solid#2489C1;
+    border-radius: 20px;
+    padding:10px 15px;
+    margin: 5px 10px 60px 5px;
+    font-size: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+button:hover{
+    transform:scale(.9);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.BOOK_MODAL {
+    display:block; /* Hidden by default */
+    position:fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .book_content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 400px; /* Could be more or less, depending on screen size */
+    height: 500px;
+    border:2px solid#2489C1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  @-webkit-keyframes animatetop {
+    from {top:0px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:0px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  /* The Close Button for book now */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #2489C1;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+/* Home features design*/
+#features{
+ align-content: center;
+
+}
+
+.border_info{
+    display:grid;
+    border: 2px solid#2489C1;
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin:25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+p{
+    font-size:20px;
+}
+
+#icon{
+    height: 70px;
+    margin: 20px auto;
+    align-self: center;
+}
+
+#icon_description{
+    position: relative;
+}
+

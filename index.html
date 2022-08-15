@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thunder Pro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="mobile.css">
+  </head>
+  <body>
+<!--Header Nav-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+<!--Header Logo-->
+       <div class="nav-brand">
+        <img id="logo" src="img/logo.png"/>
+        <a><span style="color:#6d6a11";>Thunder</span><span style="color:#2489C1;">pro</span>.</a>
+       </div>
+<!--Header Nav button-->
+        <ul>
+          <li><a href="#home"></a>HOME</li>
+          <li><a href="#home"></a>SERVICES</li>
+          <li><a href="#home"></a>CONTACT</li>
+<!--Header sign up and log in button-->
+          <li id="SignLog"><a href="#home"></a>SIGN UP</li>
+          <li id="SignLog"><a href="#home"></a>LOG IN</li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+    <hr>
+<!--Home Content-->
+    <div class="container-fluid">
+        <div class="row content">
+<!-- image services for the home content-->
+            <div class="col-sm-6 col-xs-12 text-center">
+                <img id="image" src="img/electrical.jpg"/>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+<!--The book now button and description-->
+                <h1>WE OFFER REPAIR SERVICE <button id="open_modal">Book Now</button></h1>
+<!--modal for book now-->
+                  <div id="book_modal" class="BOOK_MODAL">
+                    <div class="book_content">
+                      <span class="close">&times;</span>
+                    </div>
+                  </div>
+                <p id="discount">Take <span style="color:red">15% OFF</span> for your first <span "><a id="signUp" href="#">sign up</a></span></p>
+            </div>
+        </div>
+<!--Home features-->
+        <div id="features">
+        <div class="row">
+            <div class="col text-center border_info">
+<!--Repair description-->
+                <img id="icon" src="img/repair.png"/>
+                <p id="icon_description">We can fix various of Gadgets, Devices and Appliances.</p>
+            </div>
+            <div class="col text-center border_info">
+<!--24hours open description-->
+                <img id="icon" src="img/pngwing.com.png"/>
+                <p id="icon_description">We are always 24/7hrs open to help anytime & anywhere.</p>
+            </div>
+            <div class="col text-center border_info">
+<!--E-technicians description-->
+                 <img id="icon" src="img/technician.png"/>
+                 <p id="icon_description">Our E-technicians provide high quality services.</p>
+            </div> 
+        </div>
+        </div>
+    </div>
+<!--The behavior of the websie-->
+     <script src="website.js"></script>
+  </div>
+
+  </div>
+  </body>
+</html>

@@ -22,8 +22,23 @@
           <li><a href="#home"></a>HOME</li>
           <li><a href="#home"></a>SERVICES</li>
           <li><a href="#home"></a>CONTACT</li>
-<!--Header sign up and log in button-->
-          <li id="SignLog"><a href="#home"></a>SIGN UP</li>
+<!--Header sign up button-->
+          <li id="SignUp"id="SignUp"><a href="#home"></a>SIGN UP</li>
+<!--SignUp form-->
+          <div id="signup_modal" class="SIGNUP_MODAL">
+            <div class="signup_content">
+                <p id="booknow_style"><img id="booknow_icon" src="img/signup.png"/>Sign up <span class="close1">&times;</span></p>
+                      <label for="name:">Name:</label><br>
+                      <input type="text" id="client_signup" placeholder=" Enter Name"/><br>
+                      <label for="e-mail:">E-mail:</label><br>
+                      <input type="text" id="client_signup" placeholder=" Enter Email"/><br>
+                      <label for="address:">Password:</label><br>
+                      <input type="password" id="client_signup" placeholder=" Enter Password"/>
+                      <label for="address:">Confirm Password:</label><br>
+                      <input type="password" id="client_signup" placeholder=" Confirm Password"/>
+            </div>
+          </div>
+<!--Header log in button-->
           <li id="SignLog"><a href="#home"></a>LOG IN</li>
         </ul>
       </div>
@@ -39,14 +54,22 @@
             </div>
             <div class="col-sm-6 col-xs-12">
 <!--The book now button and description-->
-                <h1>WE OFFER REPAIR SERVICE <button id="open_modal">Book Now</button></h1>
+                <h1>WE OFFER REPAIR SERVICE <button id="open_book_modal">Book Now</button></h1>
 <!--modal for book now-->
                   <div id="book_modal" class="BOOK_MODAL">
+<!--book now form-->
                     <div class="book_content">
-                      <span class="close">&times;</span>
+                      <p id="booknow_style"><img id="booknow_icon" src="img/booknow.jpg"/>Book Now <span class="close">&times;</span></p>
+                      <br>
+                      <label for="name:">Name</label><br>
+                      <input type="text" id="client_book" placeholder=" Enter Name"/><br>
+                      <label for="e-mail:">E-mail:</label><br>
+                      <input type="text" id="client_book" placeholder=" Enter Email"/><br>
+                      <label for="address:">Address:</label><br>
+                      <input type="text" id="client_book" placeholder="Enter Address"/>
                     </div>
                   </div>
-                <p id="discount">Take <span style="color:red">15% OFF</span> for your first <span "><a id="signUp" href="#">sign up</a></span></p>
+                <p id="discount">Take <span style="color:red">15% OFF</span> for your first <span id="signUp_Bonus" ><a href="#signUP_Bonus" >sign up</a></span></p>
             </div>
         </div>
 <!--Home features-->

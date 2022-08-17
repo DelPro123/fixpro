@@ -208,8 +208,8 @@ scrollbar-width: none;  /* Firefox */
   background-color: #2489C1;
   border: 2px solid#2489C1;
   border-radius: 10px;
-  padding:5px 10px;
-  margin:20px 120px;
+  padding:5px 20px;
+  margin:10px 120px;
   text-align: center;
   font-size: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
@@ -218,12 +218,65 @@ scrollbar-width: none;  /* Firefox */
   transform:scale(.9);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+#forgot_account{
+    size:10px;
+    color: #2489C1;
+    float: right;
+}
+#forgot_account:hover{
+  size:10px;
+  color: black;
+  border-bottom:1px solid #2489C1;
+  float: right;
+}
+.or_login{
+  display: inline;
+  position:absolute;
+  margin: 10px 0px;
+}
+.google_login{
+  position:absolute;
+  color:white;
+  background-color: #E34133;
+  border: 2px solid#E34133;
+  border-radius: 10px;
+  padding:5px 50px;
+  margin:10px 0px;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+.google_login:hover{
+  transform:scale(.9);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.facebook_login{
+  position:absolute;
+  color:white;
+  background-color: #395693;
+  border: 2px solid#395693;
+  border-radius: 10px;
+  padding:5px 40px;
+  margin:10px 175px;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+.facebook_login:hover{
+  transform:scale(.9);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#or_signin{
+ text-align: center;
+ margin:0px 120px;
+}
 /*home content*/
 .content{
     align-items: center;
     padding: 20px 5px;
 }
-
 #image{
     height: auto;
     width:85%;

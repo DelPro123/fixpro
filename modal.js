@@ -21,7 +21,6 @@ span_button.onclick = function() {
   book_modal.style.display = "none";
   book_modal=location.reload();
 }
-
 //--------------------------------------------------------------------------
 // Get the <span> element that closes the modal for Sign up
 var signup_close= document.getElementsByClassName("close1")[0];

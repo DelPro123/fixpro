@@ -1,3 +1,20 @@
+//--------------------------------------------------------------------------
+//hamburger navbar
+
+var ul= document.getElementById("Nav_button");
+var Button_close = document.getElementById("navbar_close");
+var Button_open = document.getElementById("navbar_open");
+function navbar(){
+  ul.style.display = "block";
+  Button_close.style.display="block";
+  Button_open.style.display="none";
+}
+function exit(){
+  ul.style.display = "none";
+  Button_close.style.display="none";
+  Button_open.style.display="block";
+}
+
 // Get the modal for book
 var book_modal = document.getElementById("book_modal");
 var book_button = document.getElementById("open_book_modal");
